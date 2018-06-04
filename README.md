@@ -4,7 +4,7 @@
 Small graphs are prevalent in many real world applications, such as biological analysis, software management, and signal processing. Unfortunately, conventional graph platforms, are designed to accommodate big graphs. If these systems are applied to small graphs, not only the resources and power are wasted but also unnecessarily long processing time is suffered. 
 
 ## What is Minions?
-Minions is the first Graphics Processing Unit (GPU)-based small graph engine that specially optimized for small graph analytics. 
+Minions is the first Graphics Processing Unit (GPU)-based small graph engine that specially optimized for small graph analytics.
 
 <img src="picture/minions_work_together.png" class="img-thumbnail" width="300px" style="float:right; margin-left:30px; margin-top:50px; margin-bottom:10px;">
 
@@ -13,7 +13,7 @@ Firstly, Minions carefully schedules each GPU thread block to work on one indepe
 
 
 ## Evaluation Results
-We evaluate Minions with as many as 1, 048 graph datasets and demonstrate that Minions can outperform both CPU- and GPU- based graph frameworks by orders of magnitude. Most notably, Minions is 239× faster than Gunrock, the state-of-the-art GPU-based graph computing framework.
+We evaluate Minions with as many as 1,048 graph datasets and demonstrate that Minions can outperform both CPU- and GPU- based graph frameworks by orders of magnitude. Most notably, Minions is 239X faster than Gunrock, the state-of-the-art GPU-based graph computing framework.
 
 
 ## Source Code
