@@ -5,8 +5,7 @@ Small graphs are prevalent in many real world applications, such as biological a
 
 ## What is Minions?
 Minions is the first Graphics Processing Unit (GPU)-based small graph engine that specially optimized for small graph analytics. 
-
-<img src="picture/minions_work_together.png" class="img-thumbnail" width="200px" style="float:right; margin-left:30px; margi-top:50px; margin-bottom:10px;">
+<img src="picture/minions_work_together.png" class="img-thumbnail" width="300px" style="float:right; margin-left:30px; margi-top:50px; margin-bottom:10px;">
 
 ## How Minions Work
 Firstly, Minions carefully schedules each GPU thread block to work on one independent task, which yields a twin benefit: caching the most randomly accessed algorithmic metadata in fast GPU shared memory in order to minimize random global memory access and eliminating the expensive inter-block thread synchronization. Second, we construct a runtime arbiter that unveils the size limit of the graph that can be handled by Minions. 
